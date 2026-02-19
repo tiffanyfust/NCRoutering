@@ -591,7 +591,7 @@
     min-height: 10px;
     min-width: 16px;
     position: relative;
-    max-width: null%
+    max-width: null;
 }
 
 .home-e-62 {
@@ -1052,7 +1052,7 @@
     justify-content: center;
     align-items: center;
     -moz-column-gap: 8px;
-         column-gap: 8px;
+        column-gap: 8px;
     background-color: var(--vId-color-token-b);
     border-radius: 18px 8px 18px 5px;
     border-width: 0px 0px 0px 0px;
@@ -2207,7 +2207,7 @@ h6 strong,
 
     .home-e-7 {
         max-width: 350px;
-        min-height: 300px;
+        min-height: 250px;
         position: relative
     }
 
@@ -2217,12 +2217,15 @@ h6 strong,
     }
 
     .home-e-4 {
-        width: 389px;
+        font-size: 38px;
+        line-height: 48px;
+        width: -moz-fit-content;
+        width: fit-content;
         position: relative
     }
 
     .home-e-11 {
-        width: 421px;
+        width: 379px;
         position: relative
     }
 
@@ -2240,7 +2243,7 @@ h6 strong,
 
     .home-e-8 {
         max-width: 350px;
-        min-height: 300px;
+        min-height: 250px;
         position: relative
     }
 
@@ -2332,6 +2335,7 @@ h6 strong,
     .home-e-87 {
         padding: 32px 32px 32px 32px;
         align-items: center;
+        min-width: 100px;
         position: relative
     }
 

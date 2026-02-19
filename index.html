@@ -393,13 +393,13 @@
         <div class="home-e-14">
             <div class="home-e-113">
                 <div class="home-e-119">
-                    <div class="home-e-118"> <span class="home-e-114"> <a href="home" class="link" target="_self"><img src="assets/asset-d2237dd8" alt="Image" fetchpriority="high" loading="eager"></a> </span>
+                    <div class="home-e-118"> <span class="home-e-114"> <a href="index.html" class="link" target="_self"><img src="assets/asset-d2237dd8" alt="Image" fetchpriority="high" loading="eager"></a> </span>
                         <div class="home-e-117">
-                            <div class="home-e-121"> <span class="home-e-122"> <img src="assets/template-asset-544e7c65" alt="Image" fetchpriority="high" loading="eager"> </span></div><span class="home-e-115"><a href="home" class="link" target="_self">
+                            <div class="home-e-121"> <span class="home-e-122"> <img src="assets/template-asset-544e7c65" alt="Image" fetchpriority="high" loading="eager"> </span></div><span class="home-e-115"><a href="index.html" class="link" target="_self">
                                     <p>Home</p>
-                                </a></span><span class="home-e-116"><a href="about" class="link" target="_self">
+                                </a></span><span class="home-e-116"><a href="about.html" class="link" target="_self">
                                     <p>About</p>
-                                </a></span><span class="home-e-123"><a href="contact" class="link" target="_self">
+                                </a></span><span class="home-e-123"><a href="contact.html" class="link" target="_self">
                                     <p>Contact</p>
                                 </a></span>
                             <div class="home-e-140"> <a href="mailto:info@ncroutering.com" class="link" target="_self"><span class="home-e-141">
@@ -460,7 +460,9 @@
         <div class="home-e-84">
             <div class="home-e-85">
                 <div data-column="true" class="home-e-86">
-                    <div data-cdhs="fade right" class="home-e-87" data-clientid="home-e-87" data-component-type="form-component-v1"> <span class="cd-paragraph-clean home-e-89" data-clientid="home-e-89">
+                    <form data-cdhs="fade right" class="home-e-87"
+                    id="homeContactForm"
+                    data-clientid="home-e-87" data-component-type="form-component-v1"> <span class="cd-paragraph-clean home-e-89" data-clientid="home-e-89">
                             <p>Enquire with us</p>
                         </span><span class="home-e-102" data-clientid="home-e-102">
                             <p><br></p>
@@ -470,22 +472,24 @@
                         <div class="home-e-97" data-clientid="home-e-97">
                             <div class="home-e-91" data-clientid="home-e-91"> <span class="cd-paragraph-clean home-e-92" data-clientid="home-e-92">
                                     <p>Full name*</p>
-                                </span><input required="true" placeholder="Full Name" type="text" class="home-e-93" data-clientid="home-e-93">
+                                </span><input required="true" placeholder="Full Name" name="fullName" type="text" class="home-e-93" data-clientid="home-e-93">
                                 <div class="home-e-100" data-clientid="home-e-100"> <span class="cd-paragraph-clean home-e-98" data-clientid="home-e-98">
                                         <p>Phone number</p>
-                                    </span><input pattern="^[0-9#*\-\s]+$" placeholder="Phone Number" type="tel" class="home-e-99" data-clientid="home-e-99"></div>
+                                    </span><input pattern="^[0-9#*\-\s]+$" placeholder="Phone Number" name="phoneNumber" type="tel" class="home-e-99" data-clientid="home-e-99"></div>
                             </div>
                         </div>
                         <div class="home-e-96" data-clientid="home-e-96"> <span class="cd-paragraph-clean home-e-94" data-clientid="home-e-94">
                                 <p>Email*</p>
-                            </span><input required="true" placeholder="you@email.com" type="email" class="home-e-95" data-clientid="home-e-95"></div>
+                            </span><input required="true" placeholder="you@email.com" name="email" type="email" class="home-e-95" data-clientid="home-e-95"></div>
                         <div class="home-e-108" data-clientid="home-e-108"> <span class="cd-paragraph-clean home-e-110" data-clientid="home-e-110">
                                 <p>Message*</p>
-                            </span><textarea required="true" placeholder="Your message" class="home-e-109" data-clientid="home-e-109"></textarea></div>
-                        <div class="home-e-103" data-clientid="home-e-103"> <span class="home-e-104" data-clientid="home-e-104">
-                                <p>Submit Form</p>
-                            </span><i class="fas fa-chevron-circle-right home-e-105" data-clientid="home-e-105"></i></div>
-                    </div>
+                            </span><textarea required="true" placeholder="Your message" name="message class="home-e-109" data-clientid="home-e-109"></textarea></div>
+                            <div>
+                                <button type="submit" class="home-e-103 home-e-104" data-clientid="home-e-104" style="cursor:pointer;">
+                                    <p>Send message</p>
+                                </button>
+                            </div>
+                        </form>
                     <div class="home-e-88"> <span data-cdhs="fade left" class="home-e-101"> <img src="assets/asset-25da4c54" alt="Image"> </span></div>
                 </div>
             </div>

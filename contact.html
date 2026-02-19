@@ -12,7 +12,7 @@
             --vId-font-token-b: "Open Sans";
         }
     </style>
-    <title>CNC Machining Landing Page - Contact</title>
+    <title>NC Routering</title>
     <meta content="width=device-width, initial-scale=1" name="viewport">
 
     <!-- Preconnect to external domains for faster resource loading -->
@@ -393,13 +393,13 @@
     <div class="contact-e-2">
         <div class="contact-e-86">
             <div class="contact-e-92">
-                <div class="contact-e-91"> <span class="contact-e-87"> <a href="home" class="link" target="_self"><img src="assets/asset-d2237dd8" alt="Image" fetchpriority="high" loading="eager"></a> </span>
+                <div class="contact-e-91"> <span class="contact-e-87"> <a href="index.html" class="link" target="_self"><img src="assets/asset-d2237dd8" alt="Image" fetchpriority="high" loading="eager"></a> </span>
                     <div class="contact-e-90">
-                        <div class="contact-e-94"> <span class="contact-e-95"> <img src="assets/template-asset-544e7c65" alt="Image" fetchpriority="high" loading="eager"> </span></div><span class="contact-e-88"><a href="home" class="link" target="_self">
+                        <div class="contact-e-94"> <span class="contact-e-95"> <img src="assets/template-asset-544e7c65" alt="Image" fetchpriority="high" loading="eager"> </span></div><span class="contact-e-88"><a href="index.html" class="link" target="_self">
                                 <p>Home</p>
-                            </a></span><span class="contact-e-89"><a href="about" class="link" target="_self">
+                            </a></span><span class="contact-e-89"><a href="about.html" class="link" target="_self">
                                 <p>About</p>
-                            </a></span><span class="contact-e-96"><a href="contact" class="link" target="_self">
+                            </a></span><span class="contact-e-96"><a href="contact.html" class="link" target="_self">
                                 <p>Contact</p>
                             </a></span>
                         <div class="contact-e-113"> <a href="mailto:info@ncroutering.com" class="link" target="_self"><span class="contact-e-114">
@@ -413,13 +413,13 @@
     </div>
     <div class="contact-e-1">
         <div class="contact-e-21">
-            <div class="contact-e-23"> <span class="contact-e-24">
-                    <p>Get in touch!</p>
-                </span><span class="cd-paragraph-clean contact-e-25">
-                    <p>You can find our location, hours, and contact details below.</p>
-                </span></div>
             <div class="contact-e-22">
                 <div class="contact-e-26">
+                    <div class="contact-e-23"> <span class="contact-e-24">
+                            <p>Get in touch!</p>
+                        </span><span class="cd-paragraph-clean contact-e-25">
+                            <p>You can find our location, hours, and contact details below.</p>
+                        </span></div>
                     <div data-cdhs="fade up" class="contact-e-32">
                         <div class="contact-e-28"> <span class="contact-e-27">
                                 <h4>Hours of Operation</h4>
@@ -456,7 +456,11 @@
             <div class="contact-e-61">
                 <div data-cdhs="fade right" class="contact-e-62"> </div>
                 <div class="contact-e-63">
-                    <div data-cdhs="fade left" class="contact-e-82" data-clientid="contact-e-82" data-component-type="form-component-v1"> <span class="cd-paragraph-clean contact-e-64" data-clientid="contact-e-64">
+                    <form data-cdhs="fade left" class="contact-e-82"
+                    id="contactPageForm"
+                    data-clientid="contact-e-82" data-component-type="form-component-v1" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="daa26cb7-31ac-41ea-b369-19718757b15a">
+                        <span class="cd-paragraph-clean contact-e-64" data-clientid="contact-e-64">
                             <p>Send us a message</p>
                         </span><span class="cd-paragraph-clean contact-e-65" data-clientid="contact-e-65">
                             <p>Have a question or project to discuss? Send us a message and we’ll get back to you.</p>
@@ -464,23 +468,25 @@
                         <div class="contact-e-75" data-clientid="contact-e-75">
                             <div class="contact-e-71" data-clientid="contact-e-71"> <span class="cd-paragraph-clean contact-e-69" data-clientid="contact-e-69">
                                     <p>First name</p>
-                                </span><input required="true" placeholder="First Name" type="text" class="contact-e-70" data-clientid="contact-e-70"></div>
+                                </span><input required="true" placeholder="First Name"
+                                name="firstName"
+                                 type="text" class="contact-e-70" data-clientid="contact-e-70"></div>
                             <div class="contact-e-74" data-clientid="contact-e-74"> <span class="cd-paragraph-clean contact-e-72" data-clientid="contact-e-72">
                                     <p>Last name</p>
-                                </span><input required="true" placeholder="Last Name" type="text" class="contact-e-73" data-clientid="contact-e-73"></div>
+                                </span><input required="true" placeholder="Last Name" name="lastName" type="text" class="contact-e-73" data-clientid="contact-e-73"></div>
                         </div>
                         <div class="contact-e-68" data-clientid="contact-e-68"> <span class="cd-paragraph-clean contact-e-66" data-clientid="contact-e-66">
                                 <p>Email</p>
-                            </span><input required="true" placeholder="you@email.com" type="email" class="contact-e-67" data-clientid="contact-e-67"></div>
+                            </span><input required="true" placeholder="you@email.com" name="email" type="email" class="contact-e-67" data-clientid="contact-e-67"></div>
                         <div class="contact-e-78" data-clientid="contact-e-78"> <span class="cd-paragraph-clean contact-e-76" data-clientid="contact-e-76">
                                 <p>Phone number</p>
-                            </span><input pattern="^[0-9#*\-\s]+$" required="true" placeholder="Phone Number" type="tel" class="contact-e-77" data-clientid="contact-e-77"></div>
+                            </span><input pattern="^[0-9#*\-\s]+$" required="true" placeholder="Phone Number" name="phoneNumber" type="tel" class="contact-e-77" data-clientid="contact-e-77"></div>
                         <div class="contact-e-80" data-clientid="contact-e-80"> <span class="cd-paragraph-clean contact-e-79" data-clientid="contact-e-79">
                                 <p>Message</p>
-                            </span><textarea placeholder="Message" class="contact-e-83" data-clientid="contact-e-83"></textarea></div><button type="submit" class="contact-e-81" data-clientid="contact-e-81">
+                            </span><textarea placeholder="Message" name="message" class="contact-e-83" data-clientid="contact-e-83"></textarea></div><button type="submit" class="contact-e-81" data-clientid="contact-e-81">
                             <p>Send message</p>
                         </button>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -1228,8 +1234,8 @@
                 "SpanolwN": "contact-e-127",
                 "Divrlhy": "contact-e-128",
                 "227x86light-2gCYd": "contact-e-129",
-                "ContainerBzo6": "contact-e-130",
-                "DivWfRo": "contact-e-131"
+                "ContainerhIBz": "contact-e-130",
+                "DivS8aJ": "contact-e-131"
             };
             var projectId = "69840935372f746945f7c3bd";
             var context = "contact";
