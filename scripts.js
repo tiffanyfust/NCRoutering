@@ -81,7 +81,7 @@ const forms = document.querySelectorAll('form');
 
           const data = await response.json();
 
-          if (response.ok) {
+          if (data.ok) {
               alert("Success! Your message has been sent.");
               form.reset();
           } else {
