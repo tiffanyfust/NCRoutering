@@ -1442,11 +1442,12 @@ h6 strong,
 
 @media (max-width:1199px) {
     .about-e-79:hover {
-        background-color: #ffffff19
+        background-color: #ffffff19;
+        cursor: pointer;
     }
 
     .about-e-77 {
-        padding: 0px 0px 0px 0px
+        padding: 0px 0px 0px 0px;
     }
 
     .about-e-76 {

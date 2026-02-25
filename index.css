@@ -1836,13 +1836,18 @@ h6 strong,
     opacity: 100%
 }
 
+.hiddenMobileMenu {
+    display: none;
+}
+
 @media (max-width:1199px) {
     .home-e-120:hover {
-        background-color: #ffffff19
+        background-color: #ffffff19;
+        cursor: pointer;
     }
 
     .home-e-118 {
-        padding: 0px 0px 0px 0px
+        padding: 0px 0px 0px 0px;
     }
 
     .home-e-117 {
@@ -1883,6 +1888,10 @@ h6 strong,
 
     .home-e-120 {
         display: block
+    }
+
+    .hiddenMobileMenu.open {
+        display: block;
     }
 
     .home-e-1 {
@@ -2531,4 +2540,14 @@ h6 strong,
     font-size: 18px;
     line-height: 28px;
     font-weight: 400
+}
+
+@media (max-width: 600px) {
+
+    .home-e-11 {
+        width: 80%;
+        max-width: 400px;
+        position: relative;
+    }
+    
 }
