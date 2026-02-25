@@ -1440,6 +1440,10 @@ h6 strong,
     opacity: 100%
 }
 
+.hiddenMobileMenu {
+    display: none;
+}
+
 @media (max-width:1199px) {
     .about-e-79:hover {
         background-color: #ffffff19;
@@ -1490,6 +1494,10 @@ h6 strong,
         display: block
     }
 
+.hiddenMobileMenu.open {
+    display: block;
+}
+
     .about-e-62 {
         padding: 50px 16px 50px 16px;
         flex-direction: column-reverse;
@@ -1500,7 +1508,7 @@ h6 strong,
     .about-e-63 {
         align-items: center;
         -moz-column-gap: 3px;
-             column-gap: 3px;
+            column-gap: 3px;
         row-gap: 8px;
         width: 100%
     }
@@ -1545,14 +1553,14 @@ h6 strong,
         flex-wrap: wrap;
         align-items: stretch;
         -moz-column-gap: 30px;
-             column-gap: 30px;
+            column-gap: 30px;
         row-gap: 30px
     }
 
     .about-e-103 {
         align-items: stretch;
         -moz-column-gap: 30px;
-             column-gap: 30px;
+            column-gap: 30px;
         width: -moz-fit-content;
         width: fit-content
     }

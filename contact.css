@@ -1634,6 +1634,10 @@ h6 strong,
     opacity: 100%
 }
 
+.hiddenMobileMenu {
+    display: none;
+}
+
 @media (max-width:1199px) {
     .contact-e-93:hover {
         background-color: #ffffff19;
@@ -1682,6 +1686,10 @@ h6 strong,
 
     .contact-e-93 {
         display: block
+    }
+
+    .hiddenMobileMenu.open {
+        display: block;
     }
 
     .contact-e-22 {
